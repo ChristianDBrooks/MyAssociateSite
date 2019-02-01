@@ -4,9 +4,9 @@
 
 3. Authenticate/Secure endpoints.
 
-4. Deploy to heroku with mLab.
+4. Addon MLAB to heroku deploy and setup db.
 
-5. Reconfigure LegalShieldMarket API-Build to heroku endpoint rather then localhost.
+5. point AssociateSite.TEST to heroku endpoint rather than localhost.
 
 6. Configure better API UI for REST
 
