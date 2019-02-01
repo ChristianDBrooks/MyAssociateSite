@@ -2,7 +2,7 @@
   "name": "MyAssociateSite",
   "version": "1.0.0",
   "description": "2. Build out UPDATE and DELETE api routes.",
-  "main": "apiRoutes.js",
+  "main": "routes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/ChristianDBrooks/MyAssociateSite/issues"
   },
-  "homepage": "https://github.com/ChristianDBrooks/MyAssociateSite#readme"
+  "homepage": "https://github.com/ChristianDBrooks/MyAssociateSite#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  }
 }
