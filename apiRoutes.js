@@ -2,16 +2,21 @@ const mongojs = require("mongojs");
 
 // Database configuration
 // Save the URL of our database as well as the name of our collection
-var databaseUrl = "<dbuser>:<dbpassword>@ds219095.mlab.com:19095/heroku_b2lxb6hl";
+var databaseUrl = "mongodb://associateadmin:associate.12@ds219095.mlab.com:19095/heroku_b2lxb6hl";
 var collections = ["associates"];
 // Use mongojs to hook the database to the db variable
 const db = mongojs(databaseUrl, collections);
+
+
 
 // This makes sure that any errors are logged if mongodb runs into an issue
 db.on("error", function (error) {
     console.log("Database Error:", error);
 });
 
+db.on('connect', function () {
+    console.log('database connected')
+});
 
 const apiRoutes = function (app) {
 
