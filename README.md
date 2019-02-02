@@ -14,4 +14,4 @@
 
 2. Create MyAssociateSite Email generic email
 
-4. If no about us provided use default
+4. If no about us provided use default.
