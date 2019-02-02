@@ -2,7 +2,7 @@ const mongojs = require("mongojs");
 
 // Database configuration
 // Save the URL of our database as well as the name of our collection
-var databaseUrl = "mongodb://<dbuser>:<dbpassword>@ds219095.mlab.com:19095/heroku_b2lxb6hl";
+var databaseUrl = "<dbuser>:<dbpassword>@ds219095.mlab.com:19095/heroku_b2lxb6hl";
 var collections = ["associates"];
 // Use mongojs to hook the database to the db variable
 const db = mongojs(databaseUrl, collections);
