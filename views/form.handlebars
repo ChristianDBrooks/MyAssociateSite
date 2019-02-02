@@ -1,0 +1,346 @@
+<div style="padding: 50px 0; background-image: url(./images/form-2.jpeg); background-size: cover; background-repeat: no-repeat; background-position: bottom; ">
+    <div class="p-5 text-light" style="background-color: rgba(0, 0, 0, 0.75); margin: 0 50px;">
+        <form>
+            <h5 class="mb-1 font-weight-light text-light">
+                Required Info
+            </h5>
+            <hr class="mt-0 bg-secondary">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="txtFirstName">First Name</label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtFirstName" placeholder="First Name">
+                        </div>
+                        <small id="firstNameHelper" class="form-text text-secondary">
+                            Your FIRST name only.
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="txtLastName">Last Name</label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtLastName" placeholder="Last Name">
+                        </div>
+                        <small id="lastNameHelper" class="form-text text-secondary">
+                            Your LAST name only.
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="txtFirstName">Company Name</label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtCompanyName" placeholder="Company Name">
+                        </div>
+                        <small id="companyNameHelper" class="form-text text-secondary">
+                            Your company name written as you'd like it shown on your associate site.
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="txtPhone">Phone Number</label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtPhone" placeholder="Phone Number">
+                        </div>
+                        <small id="phoneHelper" class="form-text text-secondary">
+                            Your phone number as you'd like it shown on your associate site.
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="txtEmail">Email</label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtEmail" placeholder="Email">
+                        </div>
+                        <small id="emailHelper" class="form-text text-secondary">
+                            Your email as you'd like it shown on your associate site.
+                        </small>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="txtUsername">LegalShield Username</label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtUsername" placeholder="Username">
+                        </div>
+                        <small id="usernameHelper" class="form-text text-secondary">
+                            Your LegalShield username used for your checkout page.<br>
+                            ex: jdoe1234
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="txtStartYear">Start Year</label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtStartYear" placeholder="Year">
+                        </div>
+                        <small id="startYearHelper" class="form-text text-secondary">
+                            What year did you start working as a LegalShield associate?
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between pt-3">
+                <h5 class="font-weight-light text-light mb-0 pb-0 pt-2">
+                    About Us Description
+                </h5>
+
+                <div class="mb-2">
+
+                    <label class="pr-2">
+                        Custom Text:
+                    </label>
+
+                    <input id="aboutToggle" type="checkbox" data-toggle="toggle" data-size="sm" data-offstyle="primary"
+                        data-onstyle="success" data-on="Enabled" data-off="Disabled">
+                </div>
+
+            </div>
+            <hr class="mt-0 bg-secondary">
+            <div class="row" id="sectionAbout">
+                <div class="col">
+                    <div class="form-group">
+                        <small id="aboutHelper" class="form-text text-secondary pb-2">
+                            If enabled this will be the paragraph of text shown next to an image of you in the "about
+                            us" section of
+                            the
+                            home
+                            page. Leave disabled to use default text shown below.
+                        </small>
+                        <textarea rows="5" class="form-control" id="txtAbout" style="background-color: rgb(150,150,150)"
+                            disabled>[auto-filled company name] has been an independent associate for LegalShield and IDShield services since [auto-filled start year]. Our company has been able to help thousands of families and hundreds of businesses get the legal and identity theft protection they need. Every time we protect another family or business it makes us feel good knowing that we have given them a service that will help them in any legal matter and save them money. If you or someone you know is in need of affordable legal or identity theft protection give us a call. We would love the opportunity to meet you and discuss your needs. We are confident we can find an affordable solution that will work for you without breaking the bank.</textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pt-3">
+                <h5 class="font-weight-light text-light mb-0 pb-0 pt-2">
+                    Media Info
+                </h5>
+
+                <div class="mb-2">
+                    <label class="pr-3">
+                        Custom Media
+                    </label>
+                </div>
+
+            </div>
+
+            <hr class="mt-0 bg-secondary">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="txtImageLink">Image Link</label>
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control mr-2" id="txtImageLink" placeholder="About Us Image Link"
+                            style="background-color: rgb(150,150,150)" disabled>
+                        <div class="form-check-inline">
+                            <input id="imageToggle" type="checkbox" data-toggle="toggle" data-size="sm" data-offstyle="primary"
+                                data-onstyle="success" data-on="Enabled" data-off="Disabled">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <small id="sendToHelper" class="form-text text-secondary">
+                        This will be the image displayed with your desciption paragraph in the "About Us" section
+                        of
+                        the
+                        home
+                        page.<br>
+                        ex: https://i.imgur.com/MFGAgXA.jpg
+                    </small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="txtLogoLink">Logo Link</label>
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control mr-2" id="txtLogoLink" placeholder="Logo Image Link"
+                            style="background-color: rgb(150,150,150)" disabled>
+                        <div class="form-check-inline">
+                            <input id="logoToggle" type="checkbox" data-toggle="toggle" data-size="sm" data-offstyle="primary"
+                                data-onstyle="success" data-on="Enabled" data-off="Disabled">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <small id="logoHelper" class="form-text text-secondary">
+                        A link to the logo that will be shown in the top left of the navbar.<br>
+                        ex: https://i.imgur.com/MFGAgXA.jpg
+                    </small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="txtIconLink">Icon Link</label>
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control mr-2" id="txtIconLink" placeholder="Icon Image Link"
+                            style="background-color: rgb(150,150,150)" disabled>
+                        <div class="form-check-inline">
+                            <input id="iconToggle" type="checkbox" data-toggle="toggle" data-size="sm" data-offstyle="primary"
+                                data-onstyle="success" data-on="Enabled" data-off="Disabled">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <small id="iconHelper" class="form-text text-secondary">
+                        A link to the icon that will be shown to the left of the title in the browser tab.<br>
+                        ex: https://i.imgur.com/MFGAgXA.jpg
+                    </small>
+                </div>
+            </div>
+
+            <h5 class="mb-1 font-weight-light text-light">
+                Technical Info
+            </h5>
+            <hr class="mt-0 bg-secondary">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="txtFacebookLink">Facebook Profile</label>
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control mr-2" id="txtFacebookLink" placeholder="Profile Link"
+                            style="background-color: rgb(150,150,150)" disabled>
+                        <div class="form-check-inline">
+                            <input id="facebookToggle" type="checkbox" data-toggle="toggle" data-size="sm"
+                                data-offstyle="primary" data-onstyle="success" data-on="Enabled" data-off="Disabled">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <small id="facebookHelper" class="form-text text-secondary">
+                        Your Facebook business or profile page URL that will be linked in the footer of your
+                        associate
+                        site.
+                    </small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="txtLinkedInLink">LinkedIn Profile</label>
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control mr-2" id="txtLinkedInLink" placeholder="Profile Link"
+                            style="background-color: rgb(150,150,150)" disabled>
+                        <div class="form-check-inline">
+                            <input id="linkedInToggle" type="checkbox" data-toggle="toggle" data-size="sm"
+                                data-offstyle="primary" data-onstyle="success" data-on="Enabled" data-off="Disabled">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <small id="linkedInHelper" class="form-text text-secondary">
+                        Your LinkedIn Profile URL that will be linked in the footer of your associate site.
+                    </small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="txtSendTo">Contact Us Email Address</label>
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control mr-2" id="txtSendTo" placeholder="Email" style="background-color: rgb(150,150,150)"
+                            disabled>
+                        <div class="form-check-inline">
+                            <input id="sendToToggle" type="checkbox" data-toggle="toggle" data-size="sm" data-offstyle="primary"
+                                data-onstyle="success" data-on="Enabled" data-off="Disabled">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <small id="sendToHelper" class="form-text text-secondary">
+                        The email that will receive automated messages from the system when a user has a
+                        question or is
+                        seeking
+                        additional information from the "Contact Us" page.<br>
+                        ex: email@example.com
+                    </small>
+                </div>
+            </div>
+
+            {{!-- <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtfaceBookLink" placeholder="Facebook Profile Link">
+                        </div>
+                        <small id="facebookHelper" class="form-text text-secondary">
+                            Your Facebook business or profile page URL that will be linked in the footer of your
+                            associate
+                            site.
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtlinkedInLink" placeholder="LinkedIn Profile Link">
+                        </div>
+                        <small id="linkedInHelper" class="form-text text-secondary">
+                            Your LinkedIn Profile URL that will be linked in the footer of your associate site.
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtSendTo" placeholder="Conact Us Email Recipient">
+                        </div>
+                        <small id="sendToHelper" class="form-text text-secondary">
+                            The email that will receive automated messages of a users information, when a user has a
+                            question or is
+                            seeking
+                            additional information from the "Contact Us" page.<br>
+                            ex: email@example.com
+                        </small>
+                    </div>
+                </div>
+            </div> --}}
+
+
+            {{!--
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" id="txtAssociateID" placeholder="Your LegalShield Associate ID">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group input-grup-sm">
+
+                    <input type="text" class="form-control" id="txtPresentationLink" placeholder="Company name">
+                </div>
+            </div> --}}
+
+            <button class="btn btn-block btn-warning mb-3" id="submitBtn">Submit</button>
+        </form>
+    </div>
+</div>
+
+<script src="./js/form.js"></script>

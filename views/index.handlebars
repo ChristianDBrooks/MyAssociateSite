@@ -1,214 +1,30 @@
-<div style="padding: 50px 0; background-image: url(./images/form-2.jpeg); background-size: cover; background-repeat: no-repeat; background-position: bottom; ">
-    <div class="p-5 text-light" style="background-color: rgba(0, 0, 0, 0.75); margin: 0 50px;">
-        <form>
-            <h5 class="mb-1 font-weight-light text-light">
-                Contact Info
-            </h5>
-            <hr class="mt-0 bg-secondary">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="txtFirstName">First Name</label>
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtFirstName" placeholder="First Name">
-                        </div>
-                        <small id="firstNameHelper" class="form-text text-muted">
-                            Your FIRST name only.
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="txtLastName">Last Name</label>
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtLastName" placeholder="Last Name">
-                        </div>
-                        <small id="lastNameHelper" class="form-text text-muted">
-                            Your LAST name only.
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="txtFirstName">Company Name</label>
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtCompanyName" placeholder="Company Name">
-                        </div>
-                        <small id="companyNameHelper" class="form-text text-muted">
-                            Your company name written as you'd like it shown on your associate site.
-                        </small>
-                    </div>
-                </div>
+<div id="landing-page">
+    <div id="landing-page-wrapper">
+        <div class="bg-white text-center">
+            <div style="display: none;" id="myName">
+                <h2 class="font-orbitron pt-4 pb-0 mb-0" style="letter-spacing: 5px;">CHRISTIAN BROOKS</h2>
+                <h5 class="font-raleway pb-4"> WEB DEVELOPER </h5>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtPhone" placeholder="Phone Number">
-                        </div>
-                        <small id="phoneHelper" class="form-text text-muted">
-                            Your phone number as you'd like it shown on your associate site.
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtEmail" placeholder="Email">
-                        </div>
-                        <small id="emailHelper" class="form-text text-muted">
-                            Your email as you'd like it shown on your associate site.
-                        </small>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtUsername" placeholder="LegalShield Username">
-                        </div>
-                        <small id="usernameHelper" class="form-text text-muted">
-                            Your LegalShield username used for your checkout page.<br>
-                            ex: jdoe1234
-                        </small>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtStartYear" placeholder="Year">
-                        </div>
-                        <small id="startYearHelper" class="form-text text-muted">
-                            What year did you start working as a LegalShield associate?
-                        </small>
-                    </div>
-                </div>
-            </div>
-
-            <h5 class="mb-1 font-weight-light text-light">
-                About Us Description
-            </h5>
-            <hr class="mt-0 bg-secondary">
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <textarea rows="8" class="form-control" id="txtAbout" placeholder="Write 150-300 words here..."></textarea>
-                        <small id="aboutHelper" class="form-text text-muted">
-                            This will be a paragraph of text shown next to an image of you in the "about us" section of
-                            the
-                            home
-                            page.
-                        </small>
-                    </div>
-                </div>
-            </div>
-
-            <h5 class="mb-1 font-weight-light text-light">
-                Media Info
-            </h5>
-            <hr class="mt-0 bg-secondary">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtImageLink" placeholder="About Us Image Link">
-                        </div>
-                        <small id="sendToHelper" class="form-text text-muted">
-                            This will be the image displayed with your desciption paragraph in the "About Us" section
-                            of
-                            the
-                            home
-                            page.<br>
-                            ex: https://i.imgur.com/MFGAgXA.jpg
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtLogoLink" placeholder="Logo Image Link">
-                        </div>
-                        <small id="logoHelper" class="form-text text-muted">
-                            A link to the logo that will be shown in the top left of the navbar.<br>
-                            ex: https://i.imgur.com/MFGAgXA.jpg
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtIconLink" placeholder="Icon Image Link">
-                        </div>
-                        <small id="iconHelper" class="form-text text-muted">
-                            A link to the icon that will be shown to the left of the title in the browser tab.<br>
-                            ex: https://i.imgur.com/MFGAgXA.jpg
-                        </small>
-                    </div>
-                </div>
-            </div>
-            <h5 class="mb-1 font-weight-light text-light">
-                Technical Info
-            </h5>
-            <hr class="mt-0 bg-secondary">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtfaceBookLink" placeholder="Facebook Profile Link">
-                        </div>
-                        <small id="facebookHelper" class="form-text text-muted">
-                            Your Facebook business or profile page URL that will be linked in the footer of your
-                            associate
-                            site.
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtlinkedInLink" placeholder="LinkedIn Profile Link">
-                        </div>
-                        <small id="linkedInHelper" class="form-text text-muted">
-                            Your LinkedIn Profile URL that will be linked in the footer of your associate site.
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtSendTo" placeholder="Conact Us Email Recipient">
-                        </div>
-                        <small id="sendToHelper" class="form-text text-muted">
-                            The email that will receive automated messages of a users information, when a user has a
-                            question or is
-                            seeking
-                            additional information from the "Contact Us" page.<br>
-                            ex: email@example.com
-                        </small>
-                    </div>
-                </div>
-            </div>
-            {{!--
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" id="txtAssociateID" placeholder="Your LegalShield Associate ID">
+        </div>
+        <div>
+            <!-- content on picture -->
+            <div class="d-flex flex-column justify-content-center align-items-center" style="height: 80vh;">
+                <div class="p-3 bg-secondary shadow text-primary text-center" id="options" style="display: none;">
+                    <h4 class="font-weight-light text-primary">Get Started!</h4>
+                    <p>
+                        Click here to order and set up your site!
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <i class="material-icons text-primary" style="font-size: 70px;">
+                                input
+                            </i>
+                            <button class="btn btn-primary mt-2">Start! </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="form-group">
-                <div class="input-group input-grup-sm">
-
-                    <input type="text" class="form-control" id="txtPresentationLink" placeholder="Company name">
-                </div>
-            </div> --}}
-
-            <button class="btn btn-block btn-warning mb-3" id="submitBtn">Submit</button>
-        </form>
+        </div>
     </div>
 </div>
-
-<script src="./js/index.js"></script>
+<script src="./js/script.js"></script>

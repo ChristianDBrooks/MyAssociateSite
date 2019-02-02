@@ -1,0 +1,48 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Teko', sans-serif; */
+
+
+#landing-page {
+    background-image: url("./images/landingpage/hdd-pattern.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Full page Foggy */
+/* #landing-page {
+    background-image: url("./images/landingpage/skycraper-fog-dark.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+} */
+
+.divider {
+    background-image: url("./images/landingpage/lightbulb-pattern.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+
+.project {
+    height: 100vh;
+}
+
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+p, .font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.indent {
+    text-indent: 30px;
+}

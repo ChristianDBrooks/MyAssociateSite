@@ -2,6 +2,10 @@
 // const data = require('./associate.js')
 const routes = function (app) {
 
+    app.get("/form", (req, res) => {
+        res.render("form");
+    })
+
     app.get("/success", (req, res) => {
         res.render("success");
     })
