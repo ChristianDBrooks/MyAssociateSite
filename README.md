@@ -1,17 +1,22 @@
 # MyAssociateSite
+- Uploading Image Files to form
 
-2. Build out UPDATE and DELETE api routes.
+- Implement Validatoin to form, required.
 
-3. Authenticate/Secure endpoints.
+- Payment page and authorization
 
-4. Addon MLAB to heroku deploy and setup db.
+- Build out UPDATE and DELETE api routes.
 
-5. point AssociateSite.TEST to heroku endpoint rather than localhost.
+- Authenticate/Secure endpoints.
 
-6. Configure better API UI for REST
+- Configure better API UI for REST
 
 
 
-2. Create MyAssociateSite Email generic email
+<!-- X Addon MLAB to heroku deploy and setup db. -->
 
-4. If no about us provided use default.
+<!-- X point AssociateSite.TEST to heroku endpoint rather than localhost. -->
+
+<!-- X Create MyAssociateSite Email generic email -->
+
+<!-- X If no about us provided use default. -->
