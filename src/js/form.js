@@ -9,12 +9,6 @@ $("txtAbout").val("something here")
 // create option for logo image
 // create option for icon image
 
-// $(function () {
-//     $('#aboutToggle').change(function () {
-//         $('#sectionAbout').toggle('slide');
-//     })
-// })
-
 $(function () {
     $('#aboutToggle').change(function () {
         if ($('#aboutToggle').is(':checked')) {
@@ -22,7 +16,20 @@ $(function () {
             $('#txtAbout').css('background-color', 'rgb(255,255,255)');
         } else {
             $('#txtAbout').attr('disabled', true);
+            $('#txtAbout').attr('disabled', true);
             $('#txtAbout').css('background-color', 'rgb(150,150,150)');
+        }
+    })
+})
+
+$(function () {
+    $('#presentationToggle').change(function () {
+        if ($('#presentationToggle').is(':checked')) {
+            $('#txtPresentationLink').removeAttr('disabled');
+            $('#txtPresentationLink').css('background-color', 'rgb(255,255,255)');
+        } else {
+            $('#txtPresentationLink').attr('disabled', true);
+            $('#txtPresentationLink').css('background-color', 'rgb(150,150,150)');
         }
     })
 })
@@ -114,7 +121,7 @@ function sendFormData(e) {
         checkoutLink: checkoutLink,
         startYear: $("#txtStartYear").val(),
         about: $('#aboutToggle').is(':checked') ? $("#txtAbout").val() : null,
-        presentationLink: $("#txtPresentationLink").val(),
+        presentationLink: $('#presentationToggle').is(':checked') ? $("#txtPresentationLink").val() : null,
         fbLink: $('#facebookToggle').is(':checked') ? $("#txtFacebookLink").val() : null,
         liLink: $('#linkedInToggle').is(':checked') ? $("#txtLinkedInLink").val() : null,
         sendTo: $('#txtSendTo').val(),
