@@ -1,3 +1,5 @@
+const mailer = "../../mailer"
+
 $("#associateForm").submit(sendFormData)
 
 $(function () {
@@ -134,6 +136,9 @@ function sendFormData() {
         logoLink: $('#logoToggle').is(':checked') ? $("#txtLogoLink").val() : null,
         iconLink: $('#iconToggle').is(':checked') ? $("#txtIconLink").val() : null,
     }
+
+    mailer(associate.email, associate.firstName, associate.companyName, associate.phone, window.location.href)
+
     $.post("/api/associate", associate, function (data, success) {
         if (success === "success") {
             console.log("success!")

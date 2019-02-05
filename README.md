@@ -1,17 +1,13 @@
 # MyAssociateSite
 - Uploading Image Files to form
 
-- Implement Validatoin to form, required.
-
 - Payment page and authorization
 
 - Build out UPDATE and DELETE api routes.
-
 - Authenticate/Secure endpoints.
-
 - Configure better API UI for REST
 
-
+<!-- X Implement Validatoin to form, required. -->
 
 <!-- X Addon MLAB to heroku deploy and setup db. -->
 
